@@ -1,0 +1,6 @@
+#1
+1. list.copy()  ==> deep and shallow copy
+2. list.sort()/sorted
+3. list.clear()
+4. list.count()
+5. list.sum()
