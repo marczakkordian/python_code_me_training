@@ -7,7 +7,7 @@ first_rate = float(input("Please type first rate (0-10): "))
 second_rate = float(input("Please type second rate (0-10): "))
 third_rate = float(input("Please type third rate (0-10): "))
 sum = first_rate + second_rate + third_rate
-average = sum/3
+average = sum / 3
 
 if average >= 7:
     print("Very good rate", average)

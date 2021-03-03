@@ -11,4 +11,3 @@ sentence = sentence.lower()
 
 print(sentence)
 print("Is palindrom: ", sentence == sentence[::-1])
-

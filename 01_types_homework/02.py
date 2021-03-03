@@ -3,7 +3,7 @@
 s1 = input('Please enter your first word: ')
 s2 = input('Please enter your second word: ')
 
-middle = len(s1)//2
+middle = len(s1) // 2
 
 s3 = s1[0:middle] + s2 + s1[middle:]
 
