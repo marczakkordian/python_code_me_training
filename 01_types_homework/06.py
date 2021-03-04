@@ -6,7 +6,7 @@
 # Usuń spacje i połącz wszystkie słowa myślnikiem
 # Podziel tekst na osobne zdania za pomocą kropki
 
-s: str = "The Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\nExplicit is better than " \
+s = "The Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\nExplicit is better than " \
          "implicit.\nSimple is better than complex.\nComplex is better than complicated.\nFlat is better than " \
          "nested.\nSparse is better than dense.\nReadability counts.\nSpecial cases aren\'t special enough to break " \
          "the rules.\nAlthough practicality beats purity.\nErrors should never pass silently.\nUnless explicitly " \
