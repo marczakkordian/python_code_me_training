@@ -8,9 +8,9 @@ user_str = input('Please enter your string of characters or type quit to leave t
 # the loop allowing the user enter string or quit
 while user_str != 'quit':
     if len(user_str) > 5 and user_str.find('a') != -1:
-        print(user_str.replace('a', 'i'))
+        print('Your changed string: ', user_str.replace('a', 'i'))
         user_str = input('Ok - try again or quit:  ')
         # reset variable's value
-    else :
+    else:
         user_str = input('Sorry, try again or quit: ')
         # reset variable's value

@@ -1,6 +1,7 @@
-weight = int(input('Please enter your weight (kg)'))
-height = int(input('Please enter your height (cm)'))
-BMI = (weight / (height ** 2))
-BMI_rounded = (BMI, 2)
+weight = float(input('Please enter your weight (kg)'))
+height = float(input('Please enter your height (m)'))
 
-print('Your BMI rate is', BMI_rounded)
+bmi = weight / (height ** 2)
+bmi_rounded = round(bmi, 2)
+
+print('Your BMI rate is', bmi_rounded)
