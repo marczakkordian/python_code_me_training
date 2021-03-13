@@ -1,7 +1,7 @@
 # Napisz program, który wyświetli kolejne wyniki dla silni liczby naturalnej N (N podane przez użytkownika, ale nie większe niż 8).
 
+# user input
 n = int(input('Please type integer number (0-8): '))
-i = 1
 s = 1
 t = []
 
@@ -12,8 +12,8 @@ elif 0 <= n < 2:
         s = 1
     print(n, "! = ", s)
 else:
-    for i in range(1, n + 1):
-        t.append(i)
-        s = s * i
+    for n in range(1, n + 1):
+        t.append(n)
+        s = s * n
     t_convert = str(t)
     print(n, "! =\n", t_convert.replace(',', ' *'), ' = ', s)
