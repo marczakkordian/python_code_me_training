@@ -42,6 +42,7 @@ def save_cards_number(filename, card_number):
 
 # main code
 
+
 cards_list = read_cards_number('cards.txt')
 
 for card in cards_list:
