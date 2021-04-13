@@ -38,5 +38,5 @@ while counter <= 6 and usr_num != ran_num:
         counter = counter + 1
         diff_last = diff_num
 
-print('Sorry, you reached maximum of attempts (6). Computer wins!')
+print(f'Sorry, you reached maximum of attempts (6). Computer wins! Correct number: {ran_num}')
 
