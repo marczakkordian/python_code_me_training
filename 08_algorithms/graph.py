@@ -4,6 +4,6 @@ graph = {'dom': ['szkoła', 'bar', 'kościół'], 'szkoła': ['dom', 'szpital'],
          'bar': ['dom', 'kościół', 'szpital'], }
 
 for item in graph:
-    print('----> krawedzie z ', item)
+    print('----> krawędzie z', item)
     for e in graph[item]:
         print(item, '---', e)
