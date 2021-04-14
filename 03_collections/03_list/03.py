@@ -6,7 +6,7 @@
 #
 # print('Does the first and last number the same:', numbers[0 == numbers[-1]])
 
-counter = int(input('Ile liczb chesz podać?'))
+counter = int(input('Ile liczb chcesz podać?'))
 
 list_of_num = []
 for i in range(counter):

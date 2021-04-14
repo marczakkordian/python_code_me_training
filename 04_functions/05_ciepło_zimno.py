@@ -1,5 +1,3 @@
-# Napisz grę ciepło - zimno tak, aby korzystać z funkcji.
-
 def check_user_value(secret, user, previous_nearest):
     if abs(secret - user) < abs(previous_nearest):
         print('warm!')
@@ -7,7 +5,7 @@ def check_user_value(secret, user, previous_nearest):
     else:
         print('cold!')
 
-    return nearest_guess
+    return previous_nearest
 
 
 secret_number = 5
@@ -18,6 +16,7 @@ while True:
     if user_number == secret_number:
         break
 
-nearest_guess = check_user_value((secret_number, user_number, nearest_guess))
+    nearest_guess = check_user_value(secret_number, user_number, nearest_guess)
 
-print('Congrats - you guessed right!')
+
+print('Congratulations - you guessed right!')
