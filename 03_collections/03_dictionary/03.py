@@ -4,6 +4,6 @@
 n = int(input('Give me number of row & colums N ='))
 tab = [['-'] * n] * n
 
-#print(tab)
+# print(tab)
 for row in tab:
     print(' '.join(row))
