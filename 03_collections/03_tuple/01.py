@@ -1,7 +1,9 @@
 # Stwórz krotkę zawierającą dane twojego pupila (rodzaj zwierzecia, rasa, jak się wabi).
 # Następnie rozpakuj tę krotkę na pojedyńcze zmienne.
-# Wykorzystaj zmienne do wyświetlenia f-stringa, tak by mogło powstać zdanie np. “Mój pies, rasy border collie wabi się Dyzio”.
+# Wykorzystaj zmienne do wyświetlenia f-stringa, tak by mogło powstać zdanie
+# np. “Mój pies, rasy border collie wabi się Dyzio”.
 
-my_pet = ('dog', 'labrador', 'Simba')
-
-sentence = f"Mój {animal[0]}, rasy {animal[1]}, wabi się {name[2]}"
+animal = ('pies', 'kundelek', 'Figa')
+type_of_animal, race, name = animal
+sentence = f"Mój {type_of_animal}, rasy {race} wabi się {name}"
+print(sentence)
