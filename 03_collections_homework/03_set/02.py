@@ -5,5 +5,8 @@ L_test = [1, 2, 3, 4]
 T_test = (1, 2, 3, 4)
 S_test = {1, 2, 3, 4}
 
-# append(), insert(), remove(), pop(), clear(),sort(), reverse(), copy()
+T_test.remove(1)
+print(T_test)
+
+# append(), insert(), remove() - for tuple only, pop(), clear(),sort(), reverse(), copy()
 
