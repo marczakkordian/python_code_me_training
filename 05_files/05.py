@@ -12,7 +12,7 @@ def find_longest(words_list):
     return longest
 
 
-text = read_from('../tekst.txt')
+text = read_from('tekst.txt')
 
 for i in ['!', ',', '.', ';']:
     text = text.replace(i, '')

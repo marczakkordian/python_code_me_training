@@ -1,0 +1,22 @@
+Cheese
+Egg
+Butter
+Margarine
+Yogurt
+Cottage cheese
+Ice cream
+Cream
+Sandwich
+Sausage
+Hamburger
+Hot dog
+Bread
+Pizza
+Steak
+Roast chicken
+Fish
+Seafood
+Ham
+Kebab
+Bacon
+Sour cream
