@@ -12,7 +12,7 @@ import random
 words = ['python', 'java', 'science', 'computer', 'testing', 'learning']
 turns = 0
 secret_word = random.choice(words)
-print(secret_word)
+# print(secret_word)
 usr_guesses = ''
 n_char = ''
 
