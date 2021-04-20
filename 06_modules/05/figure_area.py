@@ -1,32 +1,23 @@
-import os
+def circle(r):
+    circle_field = 3.14 * r ** 2
+    return circle_field
 
 
-def safe_read_file(filename):
-    try:
-        with open(filename, mode='r', encoding='UTF-8') as file:
-            file_size = os.stat(filename)
-            if file_size.st_size == 0:
-                return "File is empty"
-            reader = file.read()
-            return reader
-    except FileNotFoundError:
-        return "File not found."
+def rectangle(a, b):
+    rectangle_field = a * b
+    return rectangle_field
 
 
-def save_write_to_file(filename):
-    text_to_file = "Lalalala"
-    try:
-        with open(filename, mode='w', encoding='UTF-8') as file:
-            file_size = os.stat(filename)
-            if file_size.st_size != 0:
-                return "File is not empty"
-            reader = file.write(text_to_file)
-            return reader
+def triangle(a, h):
+    triangle_field = 0.5 * a * h
+    return triangle_field
 
-    except FileNotFoundError:
-        return "File not found."
+
+def trapezoid(a, b, h):
+    trapezoid_field = 0.5 * (a + b) * h
+    return trapezoid_field
 
 
 if __name__ == '__main__':
-    print(safe_read_file('text.txt'))
-    print(save_write_to_file('text.txt'))
+    print(circle(5))
+    print(triangle(12, 4))
