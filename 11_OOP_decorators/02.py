@@ -1,21 +1,28 @@
-import time
+from time import process_time, sleep
 
 
-def time_passed(func):
+def timepassed(func):
     def nested():
-        start = time.process_time()
+        start = process_time()
         func()
-        stop = time.process_time()
-        result = stop - start
+        end = process_time()
+        result = end - start
         print(result)
-    return nested()
+
+    return nested
 
 
-@time_passed
+@timepassed
 def example_function():
     print('Start')
-    time.sleep(10)
-    print('End')
+    sleep(5)
+    print('Koniec')
 
 
-example_function()
+@timepassed
+def example_2():
+    var = 4 + 5
+    return var * 40
+
+
+example_2()

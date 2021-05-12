@@ -1,14 +1,16 @@
-def uppercase_decorator(function_name):
-    def wrapper():
-        txt = str(function_name)
-        return txt.upper()
-    return wrapper()
+def uppercase_decorator(func):
+    def nested_function():
+        # txt = func()
+        # txt = txt.upper()
+        # return txt
+        return func().upper()
+
+    return nested_function
 
 
 @uppercase_decorator
-def return_string():
-    my_string = 'my_string'
-    return my_string
+def lorem_generator():
+    return 'lorem ipsum dolor sit amet'
 
 
-print(return_string())
+print(lorem_generator())
