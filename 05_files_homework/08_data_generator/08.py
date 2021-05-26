@@ -8,8 +8,8 @@ import random
 
 quote = ''
 
-with open('data.csv', newline='') as csvfile:
-    reader = csv.reader(csvfile, delimiter=',')
+with open('data.csv', newline='') as csv_file:
+    reader = csv.reader(csv_file, delimiter=',')
     word_list = list(reader)
 
 for element in word_list:
